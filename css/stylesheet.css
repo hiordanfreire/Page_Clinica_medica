@@ -183,3 +183,32 @@ main{
 }
 
 /*Final da formatação do container de rodape*/
+
+/*Medias Queries*/
+
+@media (max-width: 425px) {
+    .topo-page div{
+        width: 100%;
+        height: 150px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .links-navegacao{
+        display: flex;
+
+        justify-content: center;
+
+        width: 100%;
+        height: 100%;
+        background-color: #006057;
+    }
+    .links-topo{
+        
+    }
+    main{
+        margin-top: 80px;
+    }
+}
