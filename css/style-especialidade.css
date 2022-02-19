@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links-derecionados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+.links-derecionados a{
+    margin-left: 20px;
+    border-bottom: 3px solid #00cad1;
+    color: #000;
+}
+.titulo-pagina{
+    text-align: center;
+    margin: 40px;
+}
+.medicos-especialistas h3,
+.medicos-especialistas p{
+    text-align: center;
+}
