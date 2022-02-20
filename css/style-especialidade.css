@@ -1,8 +1,14 @@
-*{
-    margin: 0;
+/*Inicio da formatação de toda a página*/
+
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
 }
+
+/*Final da formatação de toda a página*/
 
 .links-derecionados {
     display: flex;
@@ -23,4 +29,55 @@
 .medicos-especialistas h3,
 .medicos-especialistas p{
     text-align: center;
+}
+.box-tabela-especialista{
+    display: flex;
+    height: 240px;
+    padding: 0 20px;
+    margin: 20px 0 20px 0;
+}
+.imagem-especialidade{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+.tabela-especialistas{
+    height: 100%;
+    width: 70%;
+    text-align: left;
+}
+.tabela-especialistas thead th{
+    background-color: #00cad1;
+    color: #fff;
+}
+.tabela-especialistas tbody tr:nth-of-type(2n+1){
+    background-color: #ccc;
+} 
+
+@media (max-width:768px) {
+    .imagem-especialidade{
+        display: none;
+    }
+    .tabela-especialistas{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:425px) {
+    .imagem-especialidade{
+        display: none;
+    }
+    .links-navegacao {
+        width: 100%;
+        height: 40%;
+        background-color: #00cad1;
+    }
+    .links-derecionados{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box-tabela-especialista{
+        padding: 0;
+    }
+
 }
