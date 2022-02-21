@@ -22,10 +22,12 @@
 
 ### How to run application
  1. Download the files for your machine;
- 2. extract the files;
+ 2. Extract the files;
  3. Double click on the "index.html" file and it will be click on your default browser.
 
 ## Web page demo
+
+ <img src="assets/git-repository/git-video.gif" alt="">
 
 Link to web page <a>https://page-clinica-medica.vercel.app/</a>
 
