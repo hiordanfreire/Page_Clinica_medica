@@ -2,7 +2,7 @@
 
 > Status: Concluded ✔️
 
-### Página web desenvolvida como projeto do site de cursos DevMedia, pode conferir meu perfil no link a seguir <a>https://www.devmedia.com.br/perfil/hiordan</a>.
+### Web page developed as a project of the DevMedia courses site, you can check my profile in the following link <a>https://www.devmedia.com.br/perfil/hiordan</a>.
 
 ## Technologies used:
 <table>
