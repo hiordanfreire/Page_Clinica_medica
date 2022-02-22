@@ -27,7 +27,7 @@
 
 ## Web page demo
 
- <img src="assets/git-repository/git-video.gif" alt="">
+ <img src="assets/git-repository/gitHub-responsive.gif">
 
 Link to web page <a>https://page-clinica-medica.vercel.app/</a>
 
